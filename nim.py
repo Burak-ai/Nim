@@ -182,9 +182,7 @@ class NimAI():
 
 
 def train(n):
-    """
-    Train an AI by playing `n` games against itself.
-    """
+
 
     player = NimAI()
 
