@@ -152,12 +152,6 @@ def train(n):
 
 
 def play(ai, human_player=None):
-    """
-    Play human game against the AI.
-    `human_player` can be set to 0 or 1 to specify whether
-    human player moves first or second.
-    """
-
     # If no player order set, choose human's order randomly
     if human_player is None:
         human_player = random.randint(0, 1)
